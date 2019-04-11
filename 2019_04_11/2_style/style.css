@@ -1,0 +1,43 @@
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	background-color: #cccccc;
+	margin: 0;
+	font-family: sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h1 {
+	margin-top: 0;
+}
+
+.container {
+	padding: 30px;
+	background: #24AE7F;
+	color: #ffffff;
+	text-align: center;
+}
+
+.field {
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+button {
+	width: 100%;
+	border: none;
+	background-color: #c00512;
+	color: #ffffff;
+	font-size: 20px;
+	height: 40px;
+	border-radius: 20px;
+}
